@@ -17,3 +17,6 @@ class Mahasiswa {
 		}
 };
 
+class matakuliah {
+
+};
