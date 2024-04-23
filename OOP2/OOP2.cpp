@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class bangunDatar {
+class BangunDatar {
 	//akses modifier
 	private:
 		float panjang, lebar;
@@ -30,3 +30,12 @@ class bangunDatar {
 
 		}
 };
+
+int main() {
+
+	BangunDatar pp; // deklarasi objek ppp dari class BangunDatar
+	pp.input();
+	pp.display();
+
+	return 0;
+}
